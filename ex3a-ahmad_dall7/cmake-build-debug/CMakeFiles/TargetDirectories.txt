@@ -1,0 +1,3 @@
+C:/Users/ahdal_9lda2pd/Desktop/c new_projects/ex3a-ahmad_dall7__done/cmake-build-debug/CMakeFiles/ex3a_ahmad_dall7.dir
+C:/Users/ahdal_9lda2pd/Desktop/c new_projects/ex3a-ahmad_dall7__done/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ahdal_9lda2pd/Desktop/c new_projects/ex3a-ahmad_dall7__done/cmake-build-debug/CMakeFiles/rebuild_cache.dir
