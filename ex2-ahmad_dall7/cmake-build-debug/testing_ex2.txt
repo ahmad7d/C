@@ -1,0 +1,5 @@
+First_laptop: 8
+Ahmad_laptop: 4
+Mohamed_laptop: 10
+Abed_laptop: 7
+Khaled_laptop: 2

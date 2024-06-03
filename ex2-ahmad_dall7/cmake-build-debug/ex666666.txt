@@ -1,0 +1,56 @@
+double get_load_factor()
+  {
+    return m_capacity == 0 ? 0 : m_size / m_capacity;
+  }
+
+  void insert_elements(bucket_t old_bucket)
+  {
+    for (int i=0 ; i<old_bucket.size() ; ++i)
+    {
+      m_buckets[i] = old_bucket[i];
+    }
+  }
+
+  void change_capacity(int new_capacity)
+  {
+    bucket_t * old_bucket = & m_buckets;
+    int old_capacity = m_capacity;
+    m_capacity = new_capacity;
+    init_bucket (m_capacity);
+    insert_elements (old_bucket);
+  }
+
+  void grow()
+  {
+    pow(TOP_FACTOR, 2);
+  }
+
+  int find_element_index(const KeyT& key) const
+  {
+    bucket_t* bucket = &m_buckets[hash(key)];
+    auto it = bucket->begin();
+    for (; it != bucket->end() && it->first != key; ++it)
+    {
+
+    }
+    return it == bucket->end() ? -1 : it - bucket->begin();
+  }
+
+  bool contains_key(const KeyT key_t)
+  {
+    return find_element_index (key_t) >= 0;
+  }
+
+  bool insert(const KeyT key_t, const ValueT value_t)
+  {
+    if (contains_key (key_t))
+    {
+      return false;
+    }
+    m_buckets[hash (key_t)].emplace_back(key_t, value_t);
+
+    if (get_load_factor () > TOP_FACTOR)
+    {
+
+    }
+  }

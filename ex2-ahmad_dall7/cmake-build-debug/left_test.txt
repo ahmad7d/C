@@ -1,0 +1,7 @@
+ramcdncndckw1234561234567: 1
+rb: 1
+rc: 1
+rd: 1
+re: 1
+rf: 1
+rg: 1

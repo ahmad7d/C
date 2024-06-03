@@ -1,0 +1,4 @@
+C:/Users/ahdal_9lda2pd/Desktop/c new_projects/ex2-ahmad_dall7/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ahdal_9lda2pd/Desktop/c new_projects/ex2-ahmad_dall7/cmake-build-debug/CMakeFiles/oh_tests.dir
+C:/Users/ahdal_9lda2pd/Desktop/c new_projects/ex2-ahmad_dall7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ahdal_9lda2pd/Desktop/c new_projects/ex2-ahmad_dall7/cmake-build-debug/CMakeFiles/test.dir
